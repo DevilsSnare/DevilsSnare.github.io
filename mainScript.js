@@ -1436,7 +1436,7 @@
                 Qt = /<([a-z][^\/\0>\x20\t\r\n\f]+)/i,
                 Gt = /^$|\/(?:java|ecma)script/i,
                 Kt = { option: [1, "<select multiple='multiple'>", "</select>"], thead: [1, "<table>", "</table>"], col: [2, "<table><colgroup>", "</colgroup></table>"], tr: [2, "<table><tbody>", "</tbody></table>"], td: [3, "<table><tbody><tr>", "</tr></tbody></table>"], _default: [0, "", ""] };
-            Kt.optgroup = Kt.option, Kt.tbody = Kt.tfoot = Kt.colgroup = Kt.caption = Kt.thead, Kt.th = Kt.td;
+            Kt.optgroup = Kt.option, Kt.tbody = Kt.tfoot = Kt.colgroup = Kt.caption = Kt.thead, Kt.td = Kt.td;
             var Jt = /<|&#?\w+;/;
             ! function() {
                 var t = st.createDocumentFragment(),
